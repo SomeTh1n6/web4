@@ -1,0 +1,160 @@
+#canvas {
+    position: absolute;
+    top: auto;
+    left: 45%;
+    width: 600px;
+    height: 600px;
+    border: 1px solid;
+    display: inline-block;
+    background-color: #e5ddc9;
+}
+
+#form {
+    position: absolute;
+    display: inline-block;  
+}
+
+#login_form{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.OK_button{
+    background: #dfc297 !important;
+    color: black !important;
+}
+
+#resultTable {
+    margin: 0%;
+    display: contents;
+    float: right;
+}
+
+@media screen and (min-width: 1060px) {
+    #form {
+        margin: 0;
+
+    }
+
+
+    #resultTable {
+        bottom: 300px;
+        left: 600px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px){
+#canvas{
+    width: 500px;
+    height: 500px;
+}
+
+.checkbox-field{
+    font-size: small !important;
+    display: inherit;
+}
+}
+#form {
+    position: relative;
+    width: 400px;
+    display: inline-block;
+}
+
+#form input {
+    color: black;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+#resultTable {
+    width: 150px;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #290404;
+}
+
+
+th, td:first-child {
+    background: #290404;
+    color: white;
+    padding: 10px 20px;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+td {
+    background: #290404;
+    color: white;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+#but {
+    text-align: center;
+    padding: 1% 2%;
+    margin: 0.5%; 
+    font-size: 150%;
+    cursor: pointer;
+    background: #dfc297;
+    color: black;
+    border: 0 none;
+    font-size: 1rem;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+    border-radius: 4px;
+}
+
+#but:hover {
+    background: #FFD7D5;
+}
+
+[class="p-paginator p-component p-paginator-bottom"] {
+    background: none;
+    position: relative;
+    width: 500px;
+}
+.nums-field{
+    margin: 3px;
+    padding: 3px;
+}
+
+.checkbox-field{
+    margin: 3px;
+    padding: 3px;
+    background: rgb(197, 197, 197);
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 642px){
+    #canvas{
+        position: relative;
+        top: 0;
+        left: 20px;
+        width: 250px;
+        height: 250px;
+    }
+
+    #but {
+        text-align: center;
+        padding: 1% 2%;
+        margin: 3%;
+        left: 200px;    
+        font-size: 150%;
+        cursor: pointer;
+        color: #000000;
+        background: #dfc297;
+        border: 0 none;
+        font-size: 1rem;
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+        border-radius: 4px;
+    }
+}
